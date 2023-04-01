@@ -79,6 +79,8 @@ p {
   font-family: var(--paragraphs-font);
   color: #efebea;
   transition: all 200ms ease-in-out;
+  margin: 0 8px;
+  padding: 4px 14px !important;
 }
 
 .nav-link {
@@ -93,7 +95,7 @@ p {
 .navbar-brand:hover,
 .nav-link:hover {
   color: #fff;
-  font-weight: 700;
+  box-shadow: 3px 5px 10px rgba(255, 255, 255, 0.3);
 }
 
 .navigation-links a {
