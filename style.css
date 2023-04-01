@@ -69,17 +69,17 @@ p {
 }
 
 .navbar-brand {
-  color: beige;
+  color: rgb(245, 220, 233);
   font-family: var(--paragraphs-font);
   font-size: 23px;
 }
 .nav-link {
-  color: beige;
+  color: #efebea;
   font-size: 20px;
 }
 
 .nav-link.active {
-  color: beige !important;
+  color: #efebea !important;
   font-weight: 800;
 }
 
@@ -97,7 +97,7 @@ p {
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: #efebea;
   font-size: 20px;
 }
 
