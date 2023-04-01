@@ -1,13 +1,14 @@
 :root {
   --primary-color: #7a3476;
   --secondary-color: #561f55;
+  --paragraphs-font: "Poppins", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   background-image: url("/images/evie-s-_8vovuZCj0c-unsplash.jpg");
   background-size: cover;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--paragraphs-font);
   margin: 0 auto;
   max-width: 100%;
   height: 100%;
@@ -29,7 +30,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--paragraphs-font);
   font-size: 48px;
   color: var(--secondary-color);
   padding-top: 40px;
@@ -61,6 +62,25 @@ p {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+}
+
+.navbar {
+  background: linear-gradient(135deg, var(--primary-color) 35%, #fdfcfb 100%);
+}
+
+.navbar-brand {
+  color: beige;
+  font-family: var(--paragraphs-font);
+  font-size: 26px;
+}
+.nav-link {
+  color: beige;
+  font-size: 23px;
+}
+
+.nav-link.active {
+  color: beige !important;
+  font-weight: 800;
 }
 
 .navigation-links a {
