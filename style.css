@@ -44,7 +44,7 @@ h3 {
 
 p {
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.5;
   text-align: center;
   margin: 0 !important;
@@ -71,11 +71,11 @@ p {
 .navbar-brand {
   color: beige;
   font-family: var(--paragraphs-font);
-  font-size: 26px;
+  font-size: 23px;
 }
 .nav-link {
   color: beige;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .nav-link.active {
@@ -85,7 +85,7 @@ p {
 
 .navigation-links a {
   border-radius: 4px;
-  font-size: 23px;
+  font-size: 20px;
   margin: 20px;
   margin-bottom: 30px;
   padding: 20px 15px;
@@ -98,7 +98,7 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .about-link {
@@ -130,7 +130,7 @@ p {
 }
 
 .app-description {
-  font-size: 23px;
+  font-size: 20px;
   margin-bottom: 30px;
   padding: 20px 0;
   text-align: left;
