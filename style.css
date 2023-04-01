@@ -62,16 +62,92 @@ p {
   margin-left: 10px;
   padding: 0;
 }
+
+.app-description {
+  font-size: 18px;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  text-align: left;
+  text-align: left;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.app-name {
+  text-align: left;
+}
+
+.app-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.about-section {
+  margin-top: 90px;
+}
+.about-section h1 {
+  font-size: 44px;
+  margin: 20px 10px;
+  text-align: left;
+}
+.about-row {
+  background-color: #dec4bca9;
+}
+
 .container {
   margin-top: 70px;
 }
 
-.row.app {
-  background-color: #dec4bca9;
-  padding: 20px;
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
 }
 .home-img {
   opacity: 0.85;
+}
+
+.my-photo {
+  border-radius: 8px;
+  margin: 30px 0 20px;
+  max-width: 400px;
+  width: 100%;
+}
+.my-projects-button {
+  border: none;
+  border-radius: 4px;
+  margin: 20px 10px;
+  padding: 20px 15px;
+}
+
+.my-projects-button,
+.app-link,
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow) !important;
+  color: #efebea;
+  font-size: 18px;
+}
+.my-photo-wrap {
+  text-align: center;
 }
 .navigation-links {
   display: flex;
@@ -125,74 +201,9 @@ p {
   text-transform: capitalize;
 }
 
-.app-link,
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: #efebea;
-  font-size: 18px;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
-.app-name {
-  text-align: left;
-}
-.my-photo {
-  border-radius: 8px;
-  padding: 30px 0 20px;
-  max-width: 400px;
-  width: 100%;
-}
-.my-photo-wrap {
-  text-align: center;
-}
-.about-section {
-  margin-top: 90px;
-}
-.about-section h1 {
-  font-size: 44px;
-  margin: 20px 10px;
-  text-align: left;
-}
-.about-row {
+.row.app {
   background-color: #dec4bca9;
-}
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-  padding-bottom: 20px;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
-
-.app-description {
-  font-size: 18px;
-  margin-bottom: 30px;
-  padding: 20px 0;
-  text-align: left;
-  text-align: left;
-}
-
-.app-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
+  padding: 20px;
 }
 
 @media (max-width: 768px) {
@@ -219,6 +230,7 @@ p {
     padding-bottom: 0;
     text-align: center;
   }
+  .my-projects-button,
   .app-link {
     display: block;
     font-size: 16px;
@@ -240,6 +252,9 @@ p {
   .about-section h3,
   .about-section p {
     text-align: center;
+  }
+  .my-projects-button {
+    margin: 16px auto;
   }
   .my-photo {
     margin: 2px 2px;
