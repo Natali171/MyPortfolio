@@ -212,11 +212,11 @@ p {
     margin-top: 8px;
     text-align: center;
   }
-
   .about-section p,
   .app-description {
-    text-align: center;
+    font-size: 16px;
     padding-bottom: 0;
+    text-align: center;
   }
   .app-link {
     display: block;
