@@ -80,7 +80,8 @@ p {
   color: #efebea;
   transition: all 200ms ease-in-out;
   margin: 3px 8px;
-  padding: 4px 14px !important;
+  padding: 6px 16px !important;
+  border-radius: 4px;
 }
 
 .nav-link {
@@ -90,12 +91,15 @@ p {
 .nav-link.active {
   color: #efebea !important;
   font-weight: 700;
+  color: #fff;
+  box-shadow: 3px 5px 30px rgba(255, 255, 255, 0.7);
 }
 
 .navbar-brand:hover,
-.nav-link:hover {
-  color: #fff;
-  box-shadow: 3px 5px 10px rgba(255, 255, 255, 0.3);
+.nav-link:hover,
+.nav-link.active:hover {
+  background-color: #efebeae2;
+  color: var(--secondary-color) !important;
 }
 
 .navigation-links a {
