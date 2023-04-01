@@ -57,14 +57,12 @@ img {
 .content-section p {
   font-size: 22px;
   margin: 26px 10px 0;
-  padding-left: 20px;
   text-align: left;
 }
 
 .content-section h3 {
   text-align: left;
   margin-left: 10px;
-  padding-left: 20px;
 }
 
 .app-description {
@@ -91,8 +89,19 @@ img {
   text-transform: capitalize;
 }
 .content {
-  background-color: #dec4bca9;
+  background-color: #e0cac4be;
   border-radius: 8px;
+}
+
+.contact-links {
+  background-color: #e0cac4be;
+  border-radius: 8px;
+  color: var(--secondary-color);
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 20px 15px;
 }
 
 .content-section {
@@ -101,7 +110,6 @@ img {
 .content-section h1 {
   font-size: 44px;
   margin: 20px 10px;
-  padding-left: 20px;
   text-align: left;
 }
 
@@ -109,24 +117,6 @@ img {
   margin-top: 70px;
 }
 
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-  padding-bottom: 20px;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
 .app-img {
   opacity: 0.85;
 }
@@ -184,17 +174,16 @@ img {
 }
 
 .nav-link.active {
-  color: #efebea !important;
-  font-weight: 700;
-  color: #fff;
-  box-shadow: 3px 5px 30px rgba(255, 255, 255, 0.7);
+  background-color: #efebeae2;
+  color: var(--secondary-color) !important;
 }
 
 .navbar-brand:hover,
 .nav-link:hover,
 .nav-link.active:hover {
-  background-color: #efebeae2;
-  color: var(--secondary-color) !important;
+  color: #efebea !important;
+  color: #fff;
+  box-shadow: 3px 5px 30px rgba(255, 255, 255, 0.779);
 }
 
 .navigation-links a {
@@ -207,7 +196,7 @@ img {
   text-transform: capitalize;
 }
 .project {
-  margin: 30px;
+  margin: 30px 60px 0 0;
   padding: 10px;
 }
 .project-name {
@@ -227,12 +216,12 @@ img {
 @media (max-width: 768px) {
   .content-section h1,
   h1 {
-    font-size: 42px;
+    font-size: 38px;
     margin: 14px auto;
     text-align: center;
   }
   h2 {
-    font-size: 34px;
+    font-size: 32px;
     padding-top: 20px;
   }
   .content-section h3,
