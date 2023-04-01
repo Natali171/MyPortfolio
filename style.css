@@ -149,7 +149,7 @@ p {
 }
 .my-photo {
   border-radius: 8px;
-  margin: 30px 0 20px;
+  padding: 30px 0 20px;
   max-width: 400px;
   width: 100%;
 }
@@ -157,7 +157,7 @@ p {
   text-align: center;
 }
 .about-section {
-  margin: 90px;
+  margin-top: 90px;
 }
 .about-section h1 {
   font-size: 44px;
