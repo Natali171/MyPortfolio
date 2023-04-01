@@ -57,7 +57,9 @@ p {
   background-color: #dec4bca9;
   padding: 20px;
 }
-
+.home-img {
+  opacity: 0.85;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
