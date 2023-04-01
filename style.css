@@ -248,9 +248,8 @@ p {
     margin: 10px;
     white-space: nowrap;
   }
-  .about-section h1,
-  .about-section h3,
-  .about-section p {
+  .about-section,
+  .about-section h1 {
     text-align: center;
   }
   .my-projects-button {
