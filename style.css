@@ -49,6 +49,18 @@ p {
   text-align: center;
   margin: 0 !important;
 }
+
+.about-section p {
+  margin: 26px 10px 0 !important;
+  font-size: 22px;
+  text-align: left;
+}
+
+.about-section h3 {
+  text-align: left;
+  margin-left: 10px;
+  padding: 0;
+}
 .container {
   margin-top: 70px;
 }
@@ -134,7 +146,26 @@ p {
 .app-name {
   text-align: left;
 }
-
+.my-photo {
+  border-radius: 8px;
+  margin: 30px 0 20px;
+  max-width: 400px;
+  width: 100%;
+}
+.my-photo-wrap {
+  text-align: center;
+}
+.about-section {
+  margin: 90px;
+}
+.about-section h1 {
+  font-size: 44px;
+  margin: 20px 10px;
+  text-align: left;
+}
+.about-row {
+  background-color: #dec4bca9;
+}
 .email-link {
   display: flex;
   justify-content: center;
@@ -164,15 +195,16 @@ p {
 }
 
 @media (max-width: 768px) {
+  .about-section h1,
   h1 {
     font-size: 42px;
-    font-weight: 600;
     margin: 14px auto;
   }
   h2 {
     font-size: 34px;
     padding-top: 20px;
   }
+  .about-section h3,
   h3 {
     font-size: 24px;
   }
@@ -181,6 +213,7 @@ p {
     text-align: center;
   }
 
+  .about-section p,
   .app-description {
     text-align: center;
     padding-bottom: 0;
@@ -201,5 +234,14 @@ p {
   .navigation-links a {
     margin: 10px;
     white-space: nowrap;
+  }
+  .about-section h1,
+  .about-section h3,
+  .about-section p {
+    text-align: center;
+  }
+  .my-photo {
+    margin: 2px 2px;
+    width: 100%;
   }
 }
