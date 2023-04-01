@@ -71,18 +71,29 @@ p {
 }
 
 .navbar-brand {
-  color: rgb(245, 220, 233);
-  font-family: var(--paragraphs-font);
   font-size: 23px;
+  font-weight: 700;
 }
+.navbar-brand,
 .nav-link {
+  font-family: var(--paragraphs-font);
   color: #efebea;
+  transition: all 200ms ease-in-out;
+}
+
+.nav-link {
   font-size: 20px;
 }
 
 .nav-link.active {
   color: #efebea !important;
-  font-weight: 800;
+  font-weight: 700;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #fff;
+  font-weight: 700;
 }
 
 .navigation-links a {
