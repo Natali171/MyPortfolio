@@ -23,7 +23,7 @@ h3 {
 
 h1 {
   font-family: "Playfair Display", serif;
-  font-size: 90px;
+  font-size: 86px;
   font-weight: 700;
   margin-bottom: 0px;
   color: #780248;
@@ -31,7 +31,7 @@ h1 {
 
 h2 {
   font-family: var(--paragraphs-font);
-  font-size: 48px;
+  font-size: 46px;
   color: var(--secondary-color);
   padding-top: 40px;
 }
@@ -44,7 +44,7 @@ h3 {
 
 p {
   border-radius: 4px;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.5;
   text-align: center;
   margin: 0 !important;
@@ -71,7 +71,7 @@ p {
 }
 
 .navbar-brand {
-  font-size: 23px;
+  font-size: 21px;
   font-weight: 700;
 }
 .navbar-brand,
@@ -79,12 +79,12 @@ p {
   font-family: var(--paragraphs-font);
   color: #efebea;
   transition: all 200ms ease-in-out;
-  margin: 0 8px;
+  margin: 3px 8px;
   padding: 4px 14px !important;
 }
 
 .nav-link {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .nav-link.active {
@@ -100,7 +100,7 @@ p {
 
 .navigation-links a {
   border-radius: 4px;
-  font-size: 20px;
+  font-size: 18px;
   margin: 20px;
   margin-bottom: 30px;
   padding: 20px 15px;
@@ -113,7 +113,7 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: #efebea;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .about-link {
@@ -145,7 +145,7 @@ p {
 }
 
 .app-description {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 30px;
   padding: 20px 0;
   text-align: left;
