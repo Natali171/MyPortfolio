@@ -82,12 +82,17 @@ img {
   text-align: left;
 }
 
+.app-img {
+  opacity: 0.85;
+}
+
 .app-link {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
 }
+
 .content {
   background-color: #e0cac4be;
   border-radius: 8px;
@@ -107,6 +112,7 @@ img {
 .content-section {
   margin-top: 90px;
 }
+
 .content-section h1 {
   font-size: 44px;
   margin: 20px 10px;
@@ -117,8 +123,8 @@ img {
   margin-top: 70px;
 }
 
-.app-img {
-  opacity: 0.85;
+.footer {
+  margin-top: 2000px;
 }
 
 .my-photo {
