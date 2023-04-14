@@ -147,7 +147,7 @@ img {
 }
 
 .contact-box {
-  background-color: #94477436;
+  background: linear-gradient(135deg, #9447743e 35%, #efebea53 80%);
   border-radius: 8px;
   padding: 30px;
 }
