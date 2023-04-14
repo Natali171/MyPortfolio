@@ -19,6 +19,14 @@ body {
 footer {
   margin: 60px auto;
 }
+.coded-by {
+  background-color: #e0cccc7d;
+  border-radius: 4px;
+  color: var(--secondary-color);
+  max-width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
 
 h1,
 h2,
@@ -113,7 +121,11 @@ img {
 }
 
 .app-img {
-  opacity: 0.85;
+  opacity: 0.65;
+}
+
+.app-img:hover {
+  opacity: 1;
 }
 
 .app-link,
@@ -194,6 +206,17 @@ footer .contact-link {
 .email-link:hover {
   color: var(--heading-color);
   opacity: 1;
+  text-decoration: underline;
+}
+
+.github-link {
+  color: var(--heading-color);
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.github-link:hover {
   text-decoration: underline;
 }
 
@@ -309,6 +332,9 @@ footer .contact-link {
 }
 
 @media (max-width: 768px) {
+  .app-img {
+    opacity: 1;
+  }
   footer {
     text-align: center;
   }
